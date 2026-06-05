@@ -1,0 +1,61 @@
+* {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    font-size: 20px;
+}
+
+body {
+    background-color: #D8DBE2
+}
+
+.box-content {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.box-greeting {
+    height: 600px
+}
+
+.box-server {
+    background-color: #58A4B0;
+    min-height: 500px
+}
+
+footer {
+    background: #373F51;
+    min-height: 100px
+}
+
+.arrow {
+    display: flex;
+    right: 20px;
+    min-width: 100px
+}
+
+.right-column {
+    position: fixed;
+    min-height: 100vh;
+    top: 0;
+    right: 10px
+}
+
+
+.wave-divider {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-card{
+    min-width: 435px;
+    min-height: 580px;
+    transform: rotate(10deg);
+    /*max-width: 440px;*/
+}
+/*.carousel-inner img {*/
+/*    min-width: 406px;*/
+/*    max-width: 400px;*/
+/*}*/
