@@ -16,9 +16,9 @@ body {
     margin: 0 auto;
 }
 
-.box-greeting {
-    height: 600px
-}
+/*.box-greeting {*/
+/*    height: 600px*/
+/*}*/
 
 .box-server {
     background-color: #58A4B0;
@@ -51,10 +51,31 @@ footer {
 
 .carousel-card{
     min-width: 435px;
-    min-height: 580px;
+    min-height: 520px;
     transform: rotate(10deg);
-    /*max-width: 440px;*/
 }
+
+@media (max-width: 1200px) {
+    .carousel-card{
+        transform: rotate(5deg);
+        max-width: 430px;
+        min-width: 80%;
+    }
+
+    /*.box-greeting {*/
+    /*    height: 740px*/
+    /*}*/
+}
+
+
+@media (max-width: 500px) {
+    .carousel-card{
+        transform: rotate(3deg);
+        min-height: 200px;
+    }
+
+}
+
 /*.carousel-inner img {*/
 /*    min-width: 406px;*/
 /*    max-width: 400px;*/
